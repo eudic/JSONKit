@@ -2912,7 +2912,7 @@ errorExit:
         jk_managedBuffer_release(&encodeState->stringBuffer);
         jk_managedBuffer_release(&encodeState->utf8ConversionBuffer);
         free(encodeState); encodeState = NULL;
-    }  
+    }
 }
 
 - (void)dealloc
